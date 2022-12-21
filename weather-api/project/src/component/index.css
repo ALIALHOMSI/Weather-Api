@@ -38,11 +38,11 @@ header{
 }
 body{
     background-color:#9CCEF4;
-    font-family: raleway;
+    font-family: "raleway", Arial, Helvetica, sans-serif !important;
 }
 
 .middlepart img{
-    width: 190px;
+    width: 250px;
     margin-top: 30px;
 
 }
@@ -65,16 +65,18 @@ body{
 }
 
 .bottompart{
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: auto;
+    margin-top: 10rem;
     margin-left: 50px;
     margin-right: 50px;
+    
     /* I was about to put the bottom part at the bottom  */
 }
 
 .bottompart img{
-    width: 70px; 
+    width: 130px; 
 }
 
